@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css"/>
+    <script src="https://kit.fontawesome.com/477f196e31.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"  src="pirveli.js"></script>
+    <title>2tour</title>
+
+
+</head>
+
+<body>
+<div class="header">
+    <div class="logo"></div>
+
+    <div class="nav">
+        <style>
+            div.fixed {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+
+            }
+        </style>
+
+
+        <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li> <a href="services.html">services</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+     <img src="https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_55562b6dda.jpg" class="img1"/>
+     <img src=" https://www.thestatesman.com/wp-content/uploads/2019/09/new-travel.jpg" class="img2"/>
+</div>
+
+
+
+<div class="content">
+</div>
+
+<div class="social">
+</div>
+
+<div class="footer">
+
+    <div class="info">
+        <h2> Contact us </h2>
+        <p>Name:</p>
+        <input type="text"  class="name"/>
+        <p>Email:</p>
+        <input type="text"  class="email"/>
+        <p>Massege:</p>
+        <input type="text" class="massege"/>
+        <button type="submit"  class="button"> submit</button>
+
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript">
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+            message => alert(message)
+        );
+
+    }
+</script>
+<h2 class="copy">საავტორო უფლებები &copy 2021-2030</h2>
+</div>
+
+
+</body>
+</html>
